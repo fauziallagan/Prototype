@@ -1,0 +1,12 @@
+nav{   
+    margin: 0;
+    padding: 0;
+}
+nav .logo{
+    width: 20%;
+    border-radius: 50%;
+
+}
+.navbar-brand{
+    margin-block-end: 2px;
+}
