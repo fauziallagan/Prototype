@@ -1,6 +1,7 @@
 nav{   
     margin: 0;
     padding: 0;
+    color: aliceblue;
 }
 nav .logo{
     width: 20%;
@@ -8,5 +9,9 @@ nav .logo{
 
 }
 .navbar-brand{
-    margin-block-end: 2px;
+    display: block;
+    margin-right: 10%;
+}
+.form-inline{
+    margin-left: 30%;
 }
