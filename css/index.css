@@ -1,12 +1,8 @@
-body{
-    background-color: #f4ebc1;
-    margin: 0;
-    padding: 0;
-}
+
 .navbar{   
-    display: block;
-    margin: 0;
-    padding: 0;
+    /* /* display: block;  */
+     margin: 0;
+    padding: 0; 
     background-color: rgb(122, 173, 156);
     background: transparent;
 }
@@ -17,9 +13,6 @@ nav .logo{
 
 }
 
-.nav-link{
-    padding-right: 30%;
-}
 .nav-item:active{
     background-color: red;
 }
@@ -29,10 +22,7 @@ nav .logo{
     letter-spacing: 1px;
     padding: 0 3%;
 }
-.container{
-    width: 100%;
-    padding-right: 100%;
-}
+
 .d-block{
     max-width: 100%;
     height: 100%;
@@ -46,9 +36,18 @@ nav .logo{
     margin-top: 10px; /* Optional */
 }
 
-.card{
-    width: 50%;
-}
 .leader{
     margin-top: 20px;
+}
+.container-navbar{
+    width: 100%;
+    
+}
+.card-footer{
+    text-align: right;
+
+}
+.text-muted{
+    font-size: 15px;
+    font-style: italic;
 }
