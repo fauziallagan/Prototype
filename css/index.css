@@ -1,9 +1,3 @@
-nav .navbar{
-    position: fixed;
-}
-nav .cotainer{
-    position: fixed;
-}
 .navbar{   
     
     /* /* display: block;  */
@@ -11,6 +5,9 @@ nav .cotainer{
     padding: 0; 
     background-color: rgb(122, 173, 156);
     background: transparent;
+}
+nav{
+    position: fixed;
 }
 nav .logo{
     width: 10%;
@@ -66,4 +63,23 @@ nav .logo{
     text-align: center;
     color: red;
     font-weight: bolder;
+}
+html{
+    scroll-behavior: smooth;
+    animation-duration: 30s;
+    animation: cubic-bezier(1, 0, 0, 1);
+    animation-fill-mode: forwards;
+}
+.container-fluid{
+    /* background-color: black; */
+    width: 100%;
+}
+fot-bar{
+    margin-right: 30%;
+    text-align: center;
+    justify-content: center;
+}
+li {
+    text-decoration: none;
+
 }

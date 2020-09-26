@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-  <div class="jumbotron-fluid">
+  <div class="jumbotron-fluid" id="home">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <img src="./asset/logo/logo.jpeg" alt="No Display Picture" class="logo">
@@ -23,22 +23,22 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sayuran</a>
+                <a class="nav-link" href="#sayuran">Sayuran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Makanan</a>
+                <a class="nav-link" href="#makanan">Makanan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Minuman</a>
+                <a class="nav-link" href="#minuman">Minuman</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sepatu</a>
+                <a class="nav-link" href="#sepatu">Sepatu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tas</a>
+                <a class="nav-link" href="#tas">Tas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Alat Tulis</a>
+                <a class="nav-link" href="#alat tulis">Alat Tulis</a>
               </li>
               
               <!-- Important! -->
@@ -135,7 +135,7 @@
       <div class="container">
         <div class="rows">
           <div class="col-lg-12">
-            <h5 class="leader">Recomended Product <hr></h5>
+            <h5 class="leader" id="rekomendasi"><a href="#home" class="nav-link"> Recomended Product</a> <hr></h5>
           <div class="card-deck">
             <div class="card">
               <img src="./asset/Makanan/pempek.jpg" class="card-image-top w-100" alt="No Image source">
@@ -179,7 +179,7 @@
           </div>
         </div>
           <!-- Produk 2 -->
-          <h5 class="leader">Produk Makanan<hr></h5>
+          <h5 class="leader" id="makanan"> <a href="#home" class="nav-link">Produk Makanan</a><hr></h5>
           <div class="card-deck">
             <div class="card">
               <img src="./asset/Makanan/keripik.jpg" class="card-image-top w-100" alt="No Image source">
@@ -227,7 +227,7 @@
       <!-- Preveiw  3 -->
       <div class="rows">
         <div class="col-lg-12">
-          <h5 class="leader">Produk Minuman <hr></h5>
+          <h5 class="leader" id="minuman"> <a href="#home" class="nav-link">Produk Minuman</a> <hr></h5>
         <div class="card-deck">
           <div class="card">
             <img src="./asset/Minuman/minum.jpg" class="card-image-top w-100" alt="No Image source">
@@ -271,7 +271,7 @@
         </div>
       </div>
         <!-- Produk 4 -->
-        <h5 class="leader">Produk Alat Tulis<hr></h5>
+        <h5 class="leader" id="alat tulis"><a href="#home" class="nav-link">Produk Alat Tulis</a><hr></h5>
         <div class="card-deck">
           <div class="card">
             <img src="./asset/Alat Tulis/Binder.jpg" class="card-image-top w-100" alt="No Image source">
@@ -319,7 +319,7 @@
     <!-- 5 -->
     <div class="rows">
       <div class="col-lg-12">
-        <h5 class="leader">Produk Tas<hr></h5>
+        <h5 class="leader" id="tas"><a href="#home" class="nav-link">Produk Tas</a><hr></h5>
       <div class="card-deck">
         <div class="card">
           <img src="./asset/Tas/1.1.jpg" class="card-image-top w-100" alt="No Image source">
@@ -363,7 +363,7 @@
       </div>
     </div>
       <!-- Produk 2 -->
-      <h5 class="leader">Produk Sayuran<hr></h5>
+      <h5 class="leader" id="sayuran"><a href="#home" class="nav-link">Produk Sayuran</a><hr></h5>
       <div class="card-deck">
         <div class="card">
           <img src="./asset/Sayuran/buncis.jpg" class="card-image-top w-100" alt="No Image source">
@@ -410,7 +410,7 @@
   </div>
         <div class="rows">
           <div class="col-lg-12">
-            <h5 class="leader">Produk Sepatu<hr></h5>
+            <h5 class="leader" id="sepatu"><a href="#home" class="nav-link">Produk Sepatu </a><hr></h5>
           <div class="card-deck">
             <div class="card">
               <img src="./asset/Sepatu/sepatu.jpg" class="card-image-top w-100" alt="No Image source">
@@ -455,7 +455,27 @@
         </div>
       </div>
     </div>
-
+</div>
+    <!-- Footer
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3">
+            <h4 class="fot-bar">Category</h4>
+            <ul>
+              <li>Makanan</li>
+              <li>minuman</li>
+              <li>Sepatu</li>
+              <li>Tas</li>
+              <li>Alat Tulis</li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="fot-bar">Share</h4>
+          </div>
+        </div>
+      </div>
+    </footer> -->
 
 
     <!-- Boostrap JS CDN Prototyping -->
