@@ -196,5 +196,8 @@ footer ul li:hover{
     width: 50%;
 }
 .lead{
-    margin-top: 10%;
+    padding-right: 10%;
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: justify;
 }
