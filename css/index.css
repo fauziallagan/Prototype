@@ -10,9 +10,12 @@ html{
 .navbar{   
     
     /* /* display: block;  */
-     margin: 0;
+    margin: 0;
     padding: 0; 
     background-color: rgb(122, 173, 156);
+    background: transparent;
+}
+.container-fluid{
     background: transparent;
 }
 nav{
@@ -102,10 +105,7 @@ nav .logo{
 .leader{
     margin-top: 20px;
 }
-.container-navbar{
-    width: 100%;
-    
-}
+
 .card-footer{
     text-align: right;
 
@@ -139,10 +139,10 @@ nav .logo{
 /* Footer / Main bottom */
 
 footer{
-    width: auto;
+    width: 100%;
     margin-top: 2%;
-
-    background-color: black;
+    position: absolute;
+   background-color: whitesmoke;
 }
 
 .fot-bar{
@@ -150,26 +150,25 @@ footer{
     margin-right: 0%;
     text-align: center;
     justify-content: center;
-    color: white;
+
 }
 .fot-bar-share{
     text-align: center;
     width: 100%;
     margin-top: 3%;
     margin-bottom: 2%;
-    color: white;
+
 }
 
 
 .logo-footer{
-
     margin-top: 10%;
     width: 70%;
     border-radius: 100%;
     
 }
 footer ul li{
-    color: white;
+    margin-left: 20%;
     list-style-type: none;
 }
 footer ul li:hover{
@@ -178,23 +177,24 @@ footer ul li:hover{
 }
 .cp{
     text-align: center;
+
 }
 
 
 .icon{
-    margin: 0 5%;
-    top: 1460px;
-    left: 998px;
-    width: 63px;
-    height: 59px;
-
-    
+  width: 5%;
+  margin: 0 9%;
+  position: sticky;
 }
+
 .share{
-    background-color: white;
+    background-color: white; 
     width: 100%;
 }
 .Category{
     background-color: white;
     width: 50%;
+}
+.lead{
+    margin-top: 10%;
 }
