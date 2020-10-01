@@ -81,12 +81,7 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1599.98px){
-    .card:hover{
-        border-width: thick;
-        box-shadow: 0 10px 10px rgba(0,0,0,.6);
-        background-color: rgba(231, 209, 231, 0.726);
-        transition: 200ms;
-    }
+ 
     .caption-left-judul{
         margin-right: 40%;
         font-size: 30px;
@@ -136,15 +131,7 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1800px) and (max-width: 2099.98px) { 
-    .card:hover{
-        border-width: thick;
-        box-shadow: 0 0px 100px rgba(0,0,0,.6);
-        background-color: rgba(231, 209, 231, 0.726);
-        position: relative;
-        transition: 200ms;
-        transform-style: preserve-3d;
-        cursor: pointer;
-    }
+
     .modal-dialog{
         height: 100%;
         margin: 50% 50%;
