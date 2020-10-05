@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/deskripsi response.css">
     <!-- Boostrap CDN Protoyping -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Tensorflow JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
 </head>
 <body>
 <div class="jumbotron-fluid" id="home">
@@ -133,8 +135,21 @@
                     </table>
                   </div>
                 </div>
-            
             </div>
+          </div>
+          <div class="container">
+            <div class = "demo">
+              <h1>Thank you for your visit!</h1>
+
+              <div id="loaderlabel"<h2>Loading Model...</h2></div>
+              <div id="loader"> </div>   
+              <div style="display:none;" id="mainAPP">
+              <label for="input">How was your dinner? </label><br><br>
+              <input placeholder="Try: 'The salad is fresh and delicious" id="input">
+              <button class="button" style="vertical-align:middle"><span>Post Review </span></button>
+              <p></p>
+             </div>     
+            </div>  
           </div>
         </div>
       </div>
