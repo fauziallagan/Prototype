@@ -140,6 +140,10 @@
     .head{
         margin-top: 5%;
     }
+    .card-title{
+        border-top: 1px solid wheat;
+        margin-top: 20%;
+    }
 }
         
 /* // Small devices (landscape phones, 576px and up) */

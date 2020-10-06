@@ -58,6 +58,50 @@
         /* height: 200%; */
 
     }
+    .col-lg-3{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contact{
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    button.btn.btn-success{
+        padding-left: 10%;
+        padding-right: 10%;
+        /* margin-right: 30%; */
+        position: static;
+    }
+    .col-lg-3 > button.btn-success{
+        margin-left: 24%;
+        color: white;
+    }
+    
+    .logo-footer{
+        display: none;
+    }
+    .line-footer{
+        background-color: white;
+    }
+    .lead{
+    margin: 0 1%;
+    padding: 0;
+    }
+    .icon-footer{
+        width: 10%;
+        padding-left: 5%;
+        margin: 0 5%;
+        position: sticky;
+    }
+    .contact-person{
+        color: white;
+    }
+    .cr{
+        color: white;
+    }
 }
         
 /* // Small devices (landscape phones, 576px and up) */

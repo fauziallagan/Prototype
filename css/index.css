@@ -186,6 +186,7 @@ footer ul li:hover{
 .col-lg-3{
     margin-left: -5%;
     margin-right: 5%;
+    margin-top: 5%;
 }
 
 
@@ -204,9 +205,9 @@ footer ul li:hover{
     width: 50%;
 }
 .lead{
-    padding-right: 10%;
-    margin-top: 3%;
-    margin-left: 5%;
+    padding-right: 5%;
+    margin: 0 2%;
+
     text-align: justify;
 }
 .icon-footer{
@@ -224,7 +225,7 @@ img.card-image{
 }
 .logo-footer{
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 5%;
     width: 100%;
     border-radius: 100%;   
 }
@@ -249,21 +250,21 @@ button.btn.btn-success{
     margin-left: 20%;
 }
 .nomor-logo{
-    margin-top: 1%;
+    margin-top: 0 ;
 }
 
 .btn-content > button.btn.btn-success{
     margin-left:0;
     position: static;
 }
-.contact-person-content{
+/* .contact-person-content{
     margin-top: 1%;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-left: 0%;
     margin-right: 40%;
-}
+} */
 
 p.des{
     text-align: center;
@@ -272,4 +273,10 @@ p.des{
 }
 .container-tab{
     border: 1px solid;
+}
+.contact-person{
+    color: white;
+}
+.head{
+    margin-top: 4%;
 }
