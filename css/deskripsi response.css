@@ -6,6 +6,12 @@
         /* margin-right: 40%; */
         /* border-radius: 20px; */
     }
+    .left{
+        float: right;;
+    }
+    .right{
+     float: right;
+    }
     /* Scan and Share */
     .display{
         width: 100%;
@@ -129,10 +135,10 @@
     padding: 0;
     }
     .icon-footer{
-        width: 10%;
-        padding-left: 5%;
-        margin: 0 5%;
-        position: sticky;
+    width: 10%;
+    padding-left: 5%;
+    margin: 0 5%;
+    position: sticky;
     }
     .contact-person{
         color: white;
